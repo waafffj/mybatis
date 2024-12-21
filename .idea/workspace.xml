@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad5743e5-0b35-453d-9d8a-e86a9c00a0e9" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.9.9-bin\apache-maven-3.9.9\repo" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.9.9-bin\apache-maven-3.9.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2qCebDhMslU6ttvzcKSZGRDfNIz" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.TestMetaObject.executor": "Run",
+    "JUnit.ApiTest.test_MapperProxyFactory (1).executor": "Run",
+    "JUnit.ApiTest.test_MapperProxyFactory (2).executor": "Run",
+    "JUnit.ApiTest.test_MapperProxyFactory (3).executor": "Debug",
+    "JUnit.ApiTest.test_MapperProxyFactory.executor": "Run",
+    "JUnit.ApiTest.test_SqlSessionFactory.executor": "Run",
+    "JUnit.ApiTest.test_SqlSessionFactory_Annotation.executor": "Run",
+    "JUnit.ApiTest.test_proxy_class.executor": "Run",
+    "JUnit.ApiTest.test_selectOne.executor": "Run",
+    "JUnit.JDBCTest.test_jdbc.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.mybatis-step-00 [clean].executor": "Run",
+    "Maven.mybatis-step-01 [clean].executor": "Run",
+    "Maven.mybatis-step-03 [clean].executor": "Run",
+    "Maven.mybatis-step-04 [clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/SpringBoot/small-mybatis/good-small-mybatis/mybatis-step-04",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SpringBoot\small-mybatis\good-small-mybatis\mybatis-step-04" />
+      <recent name="D:\SpringBoot\small-mybatis\good-small-mybatis" />
+      <recent name="D:\SpringBoot\small-mybatis\good-small-mybatis\mybatis-step-03\src\main\java" />
+      <recent name="D:\SpringBoot\small-mybatis\good-small-mybatis\mybatis-step-03\src\main\java\cn\good" />
+      <recent name="D:\SpringBoot\small-mybatis\good-small-mybatis\mybatis-step-02\src\main\java\cn\good\mybatis\binding" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SpringBoot\small-mybatis\good-small-mybatis\docs" />
+      <recent name="D:\SpringBoot\small-mybatis\good-small-mybatis" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ApiTest.test_MapperProxyFactory (3)">
+    <configuration name="ApiTest.test_MapperProxyFactory (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-step-03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.good.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.good.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.good.mybatis.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_MapperProxyFactory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_MapperProxyFactory (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-step-04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.good.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.good.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.good.mybatis.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_MapperProxyFactory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_MapperProxyFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-step-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.good.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.good.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.good.mybatis.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_MapperProxyFactory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_proxy_class" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-step-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.good.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.good.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.good.mybatis.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_proxy_class" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_selectOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-step-04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.good.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.good.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.good.mybatis.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_selectOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ApiTest.test_MapperProxyFactory (3)" />
+        <item itemvalue="JUnit.ApiTest.test_selectOne" />
+        <item itemvalue="JUnit.ApiTest.test_MapperProxyFactory (2)" />
+        <item itemvalue="JUnit.ApiTest.test_MapperProxyFactory" />
+        <item itemvalue="JUnit.ApiTest.test_proxy_class" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="ad5743e5-0b35-453d-9d8a-e86a9c00a0e9" name="更改" comment="" />
+      <created>1734171054946</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734171054946</updated>
+      <workItem from="1734171056024" duration="9220000" />
+      <workItem from="1734237024368" duration="6471000" />
+      <workItem from="1734351112671" duration="1889000" />
+      <workItem from="1734429509501" duration="5953000" />
+      <workItem from="1734501743120" duration="594000" />
+      <workItem from="1734670036920" duration="2229000" />
+      <workItem from="1734674061964" duration="22617000" />
+      <workItem from="1734703218970" duration="1913000" />
+      <workItem from="1734771318238" duration="5000" />
+      <workItem from="1734771367752" duration="3984000" />
+      <workItem from="1734786366816" duration="7038000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/src/main/java/cn/good/mybatis/session/defaults/DefaultSqlSession.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/src/main/java/cn/good/mybatis/binding/MapperMethod.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/src/main/java/cn/good/mybatis/binding/MapperProxy.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/src/test/java/cn/good/mybatis/test/ApiTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="((BoundSql)((MappedStatement)((HashMap.Node)((HashMap)((Configuration)((DefaultSqlSession)sqlSession).configuration).mappedStatements).entrySet().toArray()[0]).getValue()).boundSql).resultType" custom="cn.good.mybatis.session.Configuration,java.util.HashMap.Node,java.util.HashMap,cn.good.mybatis.mapping.MappedStatement,cn.good.mybatis.mapping.BoundSql,cn.good.mybatis.session.defaults.DefaultSqlSession" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
