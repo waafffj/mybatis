@@ -10,5 +10,6 @@
   <name>good-small-mybatis Maven Plugin</name>
     <modules>
         <module>mybatis-step-02</module>
+        <module>mybatis-step-08</module>
     </modules>
 </project>

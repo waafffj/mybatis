@@ -1012,33 +1012,33 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <schema id="293" parent="1" name="big_market">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="294" parent="1" name="ry_vue">
+    <schema id="294" parent="1" name="blog">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="295" parent="1" name="blog">
+    <schema id="295" parent="1" name="ry_fast">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="296" parent="1" name="ry_fast">
+    <schema id="296" parent="1" name="big_market_01">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="297" parent="1" name="big_market_01">
+    <schema id="297" parent="1" name="big_market_02">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="298" parent="1" name="big_market_02">
+    <schema id="298" parent="1" name="road_map">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="299" parent="1" name="road_map">
+    <schema id="299" parent="1" name="wkm_frame">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="300" parent="1" name="wkm_frame">
+    <schema id="300" parent="1" name="db">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="301" parent="1" name="db">
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </schema>
-    <schema id="302" parent="1" name="mybatis">
+    <schema id="301" parent="1" name="mybatis">
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2024-12-21.14:32:34</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2025-01-01.14:45:25</LastIntrospectionLocalTimestamp>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="302" parent="1" name="ry">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <user id="303" parent="1" name="mysql.infoschema">
@@ -1060,5 +1060,50 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
+    <table id="307" parent="301" name="user">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </table>
+    <column id="308" parent="307" name="id">
+      <AutoIncrement>2</AutoIncrement>
+      <Comment>自增ID</Comment>
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="309" parent="307" name="userId">
+      <Comment>用户ID</Comment>
+      <DasType>varchar(9)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="310" parent="307" name="userHead">
+      <Comment>用户头像</Comment>
+      <DasType>varchar(16)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="311" parent="307" name="createTime">
+      <Comment>创建时间</Comment>
+      <DasType>timestamp|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="312" parent="307" name="updateTime">
+      <Comment>更新时间</Comment>
+      <DasType>timestamp|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="313" parent="307" name="userName">
+      <DasType>varchar(64)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <index id="314" parent="307" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="315" parent="307" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
   </database-model>
 </dataSource>

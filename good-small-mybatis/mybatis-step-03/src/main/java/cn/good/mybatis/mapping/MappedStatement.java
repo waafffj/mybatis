@@ -7,7 +7,7 @@ import java.util.Map;
 /**
  * TODO
  *
- * @Description 映射语句类
+ * @Description 映射语句类  映射xml语句
  * @Author wkm
  * @Date 2024/12/20
  **/

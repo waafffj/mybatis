@@ -4,7 +4,367 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad5743e5-0b35-453d-9d8a-e86a9c00a0e9" name="更改" comment="" />
+    <list default="true" id="ad5743e5-0b35-453d-9d8a-e86a9c00a0e9" name="更改" comment="feat:数据源加载">
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/mybatis.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/binding/MapperMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/binding/MapperProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/binding/MapperProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/binding/MapperRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/builder/BaseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/builder/xml/XMLConfigBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/datasource/DataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/datasource/druid/DruidDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/datasource/pooled/PoolState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/datasource/pooled/PooledConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/datasource/pooled/PooledDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/datasource/pooled/PooledDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/datasource/unpooled/UnpooledDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/datasource/unpooled/UnpooledDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/io/Resources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/mapping/BoundSql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/mapping/Environment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/mapping/MappedStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/mapping/ParameterMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/mapping/SqlCommandType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/session/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/session/SqlSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/session/SqlSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/session/SqlSessionFactoryBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/session/TransactionIsolationLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/session/defaults/DefaultSqlSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/session/defaults/DefaultSqlSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/transaction/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/transaction/TransactionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/transaction/jdbc/JdbcTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/transaction/jdbc/JdbcTransactionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/type/JdbcType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/type/TypeAliasRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/test/java/cn/good/mybatis/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/test/java/cn/good/mybatis/test/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/test/java/cn/good/mybatis/test/po/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/mybatis.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/binding/MapperMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/binding/MapperProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/binding/MapperProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/binding/MapperRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/builder/BaseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/builder/xml/XMLConfigBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/datasource/DataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/datasource/druid/DruidDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/datasource/pooled/PoolState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/datasource/pooled/PooledConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/datasource/pooled/PooledDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/datasource/pooled/PooledDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/datasource/unpooled/UnpooledDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/datasource/unpooled/UnpooledDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/executor/BaseExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/executor/Executor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/executor/SimpleExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/executor/resultset/DefaultResultSetHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/executor/resultset/ResultSetHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/executor/statement/BaseStatementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/executor/statement/PreparedStatementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/executor/statement/SimpleStatementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/executor/statement/StatementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/io/Resources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/mapping/BoundSql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/mapping/Environment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/mapping/MappedStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/mapping/ParameterMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/mapping/SqlCommandType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/session/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/session/ResultHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/session/SqlSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/session/SqlSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/session/SqlSessionFactoryBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/session/TransactionIsolationLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/session/defaults/DefaultSqlSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/session/defaults/DefaultSqlSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/transaction/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/transaction/TransactionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/transaction/jdbc/JdbcTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/transaction/jdbc/JdbcTransactionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/type/JdbcType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/type/TypeAliasRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/bytecode/ConstantPoolSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/bytecode/classindex/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/bytecode/classindex/InterfaceA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/bytecode/classindex/InterfaceB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/bytecode/classindex/SubClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/classloader/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/classloader/ClassInitSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/classloader/ClassLoaderSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/classloader/custom/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/classloader/custom/MyClassLoader1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/classloader/custom/MyClassLoader2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/concurrency/DownloadsSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/juc/AtomicIntegerSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/juc/ConditionSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/juc/CountDownSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/juc/CountDownSample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/juc/CyclicBarrierSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/juc/FutureSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/juc/ReentrantLockSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/juc/SemaphoreSample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/juc/SemaphoreSample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/juc/SynchronizedDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/juc/ThreadPoolSample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/juc/ThreadPoolSample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/juc/ThreadPoolSample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/juc/ThreadPoolSample4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/juc/VolatileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/thread/Match1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/thread/Match2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/thread/Match3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/thread/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/thread/SyncSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/thread/VirtualThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/itlaoqi/thread/VolatileAtomicityDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/kang/String/StringBufferBuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/kang/String/StringMethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/kang/String/StringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/kang/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/kang/annotation/MyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/kang/clone/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/kang/clone/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/kang/collection/ArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/kang/collection/CollectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/kang/collection/MapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/kang/collection/SetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/kang/design/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/kang/reflection/ClassLoaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/kang/reflection/NewInstanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/kang/reflection/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/kang/reflection/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/kang/reflection/ReflectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/kang/stream/StreamAPITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/kang/stream/StreamAPITest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/kang/stream/StreamTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/kang/stream/utils/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/java/kang/stream/utils/EmployeeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/java/cn/good/mybatis/test/po/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/resources/jdbc1.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/resources/mapper/User_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/test/resources/mybatis-config-datasource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/mybatis.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/binding/MapperMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/binding/MapperProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/binding/MapperProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/binding/MapperRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/builder/BaseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/builder/xml/XMLConfigBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/datasource/DataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/datasource/druid/DruidDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/datasource/pooled/PoolState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/datasource/pooled/PooledConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/datasource/pooled/PooledDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/datasource/pooled/PooledDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/datasource/unpooled/UnpooledDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/datasource/unpooled/UnpooledDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/executor/BaseExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/executor/Executor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/executor/SimpleExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/executor/resultset/DefaultResultSetHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/executor/resultset/ResultSetHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/executor/statement/BaseStatementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/executor/statement/PreparedStatementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/executor/statement/SimpleStatementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/executor/statement/StatementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/io/Resources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/mapping/BoundSql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/mapping/Environment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/mapping/MappedStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/mapping/ParameterMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/mapping/SqlCommandType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/reflection/MetaClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/reflection/MetaObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/reflection/Reflector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/reflection/SystemMetaObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/reflection/factory/DefaultObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/reflection/factory/ObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/reflection/invoker/GetFieldInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/reflection/invoker/Invoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/reflection/invoker/MethodInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/reflection/invoker/SetFieldInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/reflection/property/PropertyNamer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/reflection/property/PropertyTokenizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/reflection/wrapper/BaseWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/reflection/wrapper/BeanWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/reflection/wrapper/CollectionWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/reflection/wrapper/DefaultObjectWrapperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/reflection/wrapper/MapWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/reflection/wrapper/ObjectWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/reflection/wrapper/ObjectWrapperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/session/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/session/ResultHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/session/SqlSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/session/SqlSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/session/SqlSessionFactoryBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/session/TransactionIsolationLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/session/defaults/DefaultSqlSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/session/defaults/DefaultSqlSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/transaction/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/transaction/TransactionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/transaction/jdbc/JdbcTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/transaction/jdbc/JdbcTransactionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/type/JdbcType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/type/TypeAliasRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/test/java/cn/good/mybatis/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/test/java/cn/good/mybatis/test/ReflectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/test/java/cn/good/mybatis/test/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/test/java/cn/good/mybatis/test/po/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/test/java/cn/good/mybatis/test/reflection/ClassLoaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/test/java/cn/good/mybatis/test/reflection/NewInstanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/test/java/cn/good/mybatis/test/reflection/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/test/java/cn/good/mybatis/test/reflection/ReflectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/test/resources/jdbc1.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/test/resources/mapper/User_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/test/resources/mybatis-config-datasource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/mybatis.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/binding/MapperMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/binding/MapperProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/binding/MapperProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/binding/MapperRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/builder/BaseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/builder/ParameterExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/builder/SqlSourceBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/builder/StaticSqlSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/builder/xml/XMLConfigBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/builder/xml/XMLMapperBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/builder/xml/XMLStatementBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/datasource/DataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/datasource/druid/DruidDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/datasource/pooled/PoolState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/datasource/pooled/PooledConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/datasource/pooled/PooledDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/datasource/pooled/PooledDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/datasource/unpooled/UnpooledDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/datasource/unpooled/UnpooledDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/executor/BaseExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/executor/Executor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/executor/SimpleExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/executor/resultset/DefaultResultSetHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/executor/resultset/ResultSetHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/executor/statement/BaseStatementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/executor/statement/PreparedStatementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/executor/statement/SimpleStatementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/executor/statement/StatementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/io/Resources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/mapping/BoundSql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/mapping/Environment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/mapping/MappedStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/mapping/ParameterMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/mapping/SqlCommandType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/mapping/SqlSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/parsing/GenericTokenParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/parsing/TokenHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/reflection/MetaClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/reflection/MetaObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/reflection/Reflector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/reflection/SystemMetaObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/reflection/factory/DefaultObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/reflection/factory/ObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/reflection/invoker/GetFieldInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/reflection/invoker/Invoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/reflection/invoker/MethodInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/reflection/invoker/SetFieldInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/reflection/property/PropertyNamer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/reflection/property/PropertyTokenizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/reflection/wrapper/BaseWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/reflection/wrapper/BeanWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/reflection/wrapper/CollectionWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/reflection/wrapper/DefaultObjectWrapperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/reflection/wrapper/MapWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/reflection/wrapper/ObjectWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/reflection/wrapper/ObjectWrapperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/scripting/LanguageDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/scripting/LanguageDriverRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/scripting/defaults/RawSqlSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/scripting/xmltags/DynamicContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/scripting/xmltags/MixedSqlNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/scripting/xmltags/SqlNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/scripting/xmltags/StaticTextSqlNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/scripting/xmltags/XMLLanguageDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/scripting/xmltags/XMLScriptBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/session/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/session/ResultHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/session/SqlSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/session/SqlSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/session/SqlSessionFactoryBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/session/TransactionIsolationLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/session/defaults/DefaultSqlSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/session/defaults/DefaultSqlSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/transaction/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/transaction/TransactionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/transaction/jdbc/JdbcTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/transaction/jdbc/JdbcTransactionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/type/JdbcType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/type/TypeAliasRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/type/TypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/type/TypeHandlerRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/test/java/cn/good/mybatis/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/test/java/cn/good/mybatis/test/ReflectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/test/java/cn/good/mybatis/test/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/test/java/cn/good/mybatis/test/po/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/test/resources/mapper/User_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/test/resources/mybatis-config-datasource.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fd95b0a0-b069-4db3-a410-1aeb2112f010.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fd95b0a0-b069-4db3-a410-1aeb2112f010.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-03/src/main/java/cn/good/mybatis/mapping/MappedStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-03/src/main/java/cn/good/mybatis/mapping/MappedStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/src/test/java/cn/good/mybatis/test/po/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/src/test/java/cn/good/mybatis/test/po/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/binding/MapperMethod$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/binding/MapperMethod$SqlCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/binding/MapperMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/binding/MapperProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/binding/MapperProxyFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/binding/MapperRegistry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/builder/BaseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/builder/xml/XMLConfigBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/datasource/DataSourceFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/datasource/druid/DruidDataSourceFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/io/Resources.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/mapping/BoundSql.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/mapping/Environment$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/mapping/Environment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/mapping/MappedStatement$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/mapping/MappedStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/mapping/ParameterMapping$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/mapping/ParameterMapping$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/mapping/ParameterMapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/mapping/SqlCommandType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/session/Configuration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/session/SqlSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/session/SqlSessionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/session/SqlSessionFactoryBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/session/TransactionIsolationLevel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/session/defaults/DefaultSqlSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/session/defaults/DefaultSqlSessionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/transaction/Transaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/transaction/TransactionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/transaction/jdbc/JdbcTransaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/transaction/jdbc/JdbcTransactionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/type/JdbcType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/classes/cn/good/mybatis/type/TypeAliasRegistry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/test-classes/cn/good/mybatis/test/ApiTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/test-classes/cn/good/mybatis/test/dao/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/test-classes/cn/good/mybatis/test/po/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/test-classes/mapper/User_Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/test/resources/mapper/User_Mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/target/test-classes/mybatis-config-datasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/test/resources/mybatis-config-datasource.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-small-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/good-small-mybatis/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,11 +373,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="FxmlFile" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -31,41 +395,101 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2qCebDhMslU6ttvzcKSZGRDfNIz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.AtomicIntegerSample.executor": "Run",
+    "Application.ConditionSample.executor": "Run",
+    "Application.CountDownSample.executor": "Run",
+    "Application.CyclicBarrierSample.executor": "Run",
+    "Application.FutureSample.executor": "Run",
+    "Application.Person.executor": "Debug",
+    "Application.ReentrantLockSample.executor": "Run",
+    "Application.SemaphoreSample1 (1).executor": "Run",
+    "Application.SemaphoreSample1.executor": "Run",
+    "Application.SemaphoreSample2.executor": "Run",
     "Application.TestMetaObject.executor": "Run",
+    "Application.ThreadPoolSample1.executor": "Run",
+    "Application.ThreadPoolSample2.executor": "Run",
+    "Application.ThreadPoolSample3.executor": "Run",
+    "Application.ThreadPoolSample4 (1).executor": "Run",
+    "Application.ThreadPoolSample4.executor": "Run",
     "JUnit.ApiTest.test_MapperProxyFactory (1).executor": "Run",
     "JUnit.ApiTest.test_MapperProxyFactory (2).executor": "Run",
-    "JUnit.ApiTest.test_MapperProxyFactory (3).executor": "Debug",
-    "JUnit.ApiTest.test_MapperProxyFactory.executor": "Run",
+    "JUnit.ApiTest.test_MapperProxyFactory (3).executor": "Run",
+    "JUnit.ApiTest.test_MapperProxyFactory.executor": "Debug",
+    "JUnit.ApiTest.test_SqlSessionFactory (1).executor": "Debug",
+    "JUnit.ApiTest.test_SqlSessionFactory (2).executor": "Run",
     "JUnit.ApiTest.test_SqlSessionFactory.executor": "Run",
     "JUnit.ApiTest.test_SqlSessionFactory_Annotation.executor": "Run",
+    "JUnit.ApiTest.test_pooled.executor": "Run",
     "JUnit.ApiTest.test_proxy_class.executor": "Run",
     "JUnit.ApiTest.test_selectOne.executor": "Run",
+    "JUnit.ClassLoaderTest.test1.executor": "Run",
+    "JUnit.ClassLoaderTest.test2.executor": "Run",
+    "JUnit.CollectionTest.test1.executor": "Debug",
     "JUnit.JDBCTest.test_jdbc.executor": "Run",
+    "JUnit.NewInstanceTest.test1.executor": "Run",
+    "JUnit.ReflectionTest.test1.executor": "Run",
+    "JUnit.ReflectionTest.test2.executor": "Run",
+    "JUnit.ReflectionTest.test3.executor": "Run",
+    "JUnit.ReflectionTest.test_reflection.executor": "Run",
+    "JUnit.StreamAPITest1.test2.executor": "Run",
+    "JUnit.StreamAPITest1.test3.executor": "Debug",
+    "JUnit.StreamTest2.test1.executor": "Run",
+    "JUnit.StreamTest2.test2.executor": "Run",
+    "JUnit.StreamTest2.test3.executor": "Run",
+    "JUnit.StringBufferBuilderTest.test.executor": "Run",
+    "JUnit.StringTest.test2.executor": "Run",
+    "JUnit.StringTest.test3.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.mybatis-step-00 [clean].executor": "Run",
     "Maven.mybatis-step-01 [clean].executor": "Run",
     "Maven.mybatis-step-03 [clean].executor": "Run",
     "Maven.mybatis-step-04 [clean].executor": "Run",
+    "Maven.mybatis-step-05 [clean].executor": "Run",
+    "Maven.mybatis-step-06 [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/SpringBoot/small-mybatis/good-small-mybatis/mybatis-step-04",
+    "last_opened_file_path": "D:/SpringBoot/small-mybatis/good-small-mybatis/mybatis-step-08/mybatis.sql",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
+    "project.structure.last.edited": "项目",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.AtomicIntegerSample.executor": "Run",
+    "应用程序.ClassInitSample.executor": "Run",
+    "应用程序.ClassLoaderSample.executor": "Run",
+    "应用程序.ConstantPoolSample.executor": "Run",
+    "应用程序.CountDownSample1.executor": "Run",
+    "应用程序.DownloadsSample.executor": "Run",
+    "应用程序.Match1.executor": "Run",
+    "应用程序.Match2.executor": "Run",
+    "应用程序.Match3 (1).executor": "Run",
+    "应用程序.Match3.executor": "Run",
+    "应用程序.ProxyTest.executor": "Run",
+    "应用程序.SemaphoreSample1.executor": "Run",
+    "应用程序.SyncSample (1).executor": "Run",
+    "应用程序.SyncSample.executor": "Run",
+    "应用程序.SynchronizedDemo2.executor": "Run",
+    "应用程序.Test.executor": "Run",
+    "应用程序.VirtualThreadTest.executor": "Run",
+    "应用程序.VolatileAtomicityDemo.executor": "Run",
+    "应用程序.VolatileDemo.executor": "Run"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -75,19 +499,24 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SpringBoot\small-mybatis\good-small-mybatis\mybatis-step-04" />
+      <recent name="D:\SpringBoot\small-mybatis\good-small-mybatis\mybatis-step-08" />
       <recent name="D:\SpringBoot\small-mybatis\good-small-mybatis" />
-      <recent name="D:\SpringBoot\small-mybatis\good-small-mybatis\mybatis-step-03\src\main\java" />
-      <recent name="D:\SpringBoot\small-mybatis\good-small-mybatis\mybatis-step-03\src\main\java\cn\good" />
-      <recent name="D:\SpringBoot\small-mybatis\good-small-mybatis\mybatis-step-02\src\main\java\cn\good\mybatis\binding" />
+      <recent name="D:\SpringBoot\small-mybatis\good-small-mybatis\mybatis-step-06\src\test\java\cn\good\mybatis\test\java\itlaoqi" />
+      <recent name="D:\SpringBoot\small-mybatis\good-small-mybatis\mybatis-step-06\src\test\java\cn\good\mybatis\test\java\itlaoqi\bytecode" />
+      <recent name="D:\SpringBoot\small-mybatis\good-small-mybatis\mybatis-step-06\src\test\java\cn\good\mybatis\test\java\kang" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SpringBoot\small-mybatis\good-small-mybatis\mybatis-step-06\src\test\resources" />
       <recent name="D:\SpringBoot\small-mybatis\good-small-mybatis\docs" />
       <recent name="D:\SpringBoot\small-mybatis\good-small-mybatis" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.good.mybatis.test.java.itlaoqi.juc" />
+      <recent name="cn.good.mybatis.test.java.itlaoqi.threadpool" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest.test_MapperProxyFactory (3)">
-    <configuration name="ApiTest.test_MapperProxyFactory (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ApiTest.test_SqlSessionFactory (1)">
+    <configuration name="ApiTest.test_MapperProxyFactory (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-step-03" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +532,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test_MapperProxyFactory (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-step-04" />
+    <configuration name="ApiTest.test_SqlSessionFactory (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-step-08" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.good.mybatis.test.*" />
@@ -113,14 +542,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.good.mybatis.test" />
       <option name="MAIN_CLASS_NAME" value="cn.good.mybatis.test.ApiTest" />
-      <option name="METHOD_NAME" value="test_MapperProxyFactory" />
+      <option name="METHOD_NAME" value="test_SqlSessionFactory" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test_MapperProxyFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-step-01" />
+    <configuration name="ApiTest.test_SqlSessionFactory (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-step-06" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.good.mybatis.test.*" />
@@ -129,14 +558,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.good.mybatis.test" />
       <option name="MAIN_CLASS_NAME" value="cn.good.mybatis.test.ApiTest" />
-      <option name="METHOD_NAME" value="test_MapperProxyFactory" />
+      <option name="METHOD_NAME" value="test_SqlSessionFactory" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test_proxy_class" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-step-01" />
+    <configuration name="ApiTest.test_SqlSessionFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-step-07" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.good.mybatis.test.*" />
@@ -145,14 +574,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.good.mybatis.test" />
       <option name="MAIN_CLASS_NAME" value="cn.good.mybatis.test.ApiTest" />
-      <option name="METHOD_NAME" value="test_proxy_class" />
+      <option name="METHOD_NAME" value="test_SqlSessionFactory" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test_selectOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-step-04" />
+    <configuration name="ReflectionTest.test_reflection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-step-07" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.good.mybatis.test.*" />
@@ -160,8 +589,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.good.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.good.mybatis.test.ApiTest" />
-      <option name="METHOD_NAME" value="test_selectOne" />
+      <option name="MAIN_CLASS_NAME" value="cn.good.mybatis.test.ReflectionTest" />
+      <option name="METHOD_NAME" value="test_reflection" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,11 +598,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApiTest.test_MapperProxyFactory (3)" />
-        <item itemvalue="JUnit.ApiTest.test_selectOne" />
-        <item itemvalue="JUnit.ApiTest.test_MapperProxyFactory (2)" />
-        <item itemvalue="JUnit.ApiTest.test_MapperProxyFactory" />
-        <item itemvalue="JUnit.ApiTest.test_proxy_class" />
+        <item itemvalue="JUnit.ApiTest.test_SqlSessionFactory (1)" />
+        <item itemvalue="JUnit.ApiTest.test_SqlSessionFactory" />
+        <item itemvalue="JUnit.ApiTest.test_SqlSessionFactory (2)" />
+        <item itemvalue="JUnit.ReflectionTest.test_reflection" />
+        <item itemvalue="JUnit.ApiTest.test_MapperProxyFactory (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -204,25 +633,97 @@
       <workItem from="1734771318238" duration="5000" />
       <workItem from="1734771367752" duration="3984000" />
       <workItem from="1734786366816" duration="7038000" />
+      <workItem from="1734794964283" duration="1700000" />
+      <workItem from="1735637010817" duration="3164000" />
+      <workItem from="1735719660002" duration="2884000" />
+      <workItem from="1735736754493" duration="108000" />
+      <workItem from="1735738099195" duration="5371000" />
+      <workItem from="1735807632543" duration="18429000" />
+      <workItem from="1735879320246" duration="9954000" />
+      <workItem from="1735977412443" duration="2570000" />
+      <workItem from="1735982390990" duration="718000" />
+      <workItem from="1736059011662" duration="12084000" />
+      <workItem from="1736350457504" duration="4934000" />
+      <workItem from="1736498678581" duration="711000" />
+      <workItem from="1736517693358" duration="7388000" />
+      <workItem from="1736860306445" duration="7368000" />
+      <workItem from="1736874427539" duration="5190000" />
+      <workItem from="1736928444661" duration="20717000" />
+      <workItem from="1737108851091" duration="3332000" />
+      <workItem from="1737220258316" duration="2000" />
+      <workItem from="1737294889699" duration="2324000" />
+      <workItem from="1737372820817" duration="14133000" />
+      <workItem from="1737442347770" duration="18943000" />
+      <workItem from="1737473066091" duration="1380000" />
+      <workItem from="1737519315220" duration="4645000" />
+      <workItem from="1737552845546" duration="5141000" />
+      <workItem from="1737630595670" duration="3557000" />
+      <workItem from="1737637877665" duration="2735000" />
+      <workItem from="1737653868320" duration="2384000" />
+      <workItem from="1737774152540" duration="3970000" />
+      <workItem from="1737882571078" duration="3448000" />
+      <workItem from="1738052807276" duration="2083000" />
+      <workItem from="1738058582401" duration="1208000" />
+      <workItem from="1738145927916" duration="751000" />
+      <workItem from="1738160711072" duration="5908000" />
+      <workItem from="1738168861300" duration="591000" />
+      <workItem from="1738313281376" duration="2394000" />
+      <workItem from="1738329524461" duration="13000" />
+      <workItem from="1738341042063" duration="1851000" />
+      <workItem from="1738394968329" duration="10000" />
+      <workItem from="1738399880354" duration="2497000" />
+      <workItem from="1738570812767" duration="3039000" />
+      <workItem from="1738592538607" duration="1988000" />
+      <workItem from="1738745252674" duration="248000" />
+      <workItem from="1738750544099" duration="442000" />
+      <workItem from="1738752323903" duration="10473000" />
+      <workItem from="1738857661223" duration="3000" />
+      <workItem from="1738935365497" duration="9553000" />
+      <workItem from="1739198135363" duration="170000" />
+      <workItem from="1739262046475" duration="1356000" />
+      <workItem from="1739601992961" duration="1652000" />
+      <workItem from="1739610737860" duration="20000" />
+      <workItem from="1739805130579" duration="42000" />
+      <workItem from="1740133812890" duration="9604000" />
+      <workItem from="1740188796288" duration="3922000" />
+      <workItem from="1740223770819" duration="96000" />
+      <workItem from="1741703380458" duration="688000" />
+      <workItem from="1741834764427" duration="2287000" />
+      <workItem from="1743150874523" duration="1023000" />
+      <workItem from="1743323627404" duration="454000" />
+      <workItem from="1743338786107" duration="2254000" />
+      <workItem from="1743586130289" duration="3316000" />
+      <workItem from="1743601900859" duration="867000" />
+      <workItem from="1743775225401" duration="10000" />
+      <workItem from="1743775272018" duration="617000" />
+      <workItem from="1745667008416" duration="4717000" />
+      <workItem from="1745752489022" duration="11711000" />
+      <workItem from="1745806122995" duration="14557000" />
+      <workItem from="1746002089982" duration="9625000" />
+      <workItem from="1746081293492" duration="19792000" />
     </task>
+    <task id="LOCAL-00001" summary="feat:数据源加载">
+      <option name="closed" value="true" />
+      <created>1734795175119</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734795175119</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat:数据源加载" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:数据源加载" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/src/main/java/cn/good/mybatis/session/defaults/DefaultSqlSession.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/src/main/java/cn/good/mybatis/binding/MapperMethod.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/src/main/java/cn/good/mybatis/binding/MapperProxy.java</url>
           <line>34</line>
@@ -233,12 +734,166 @@
           <line>36</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/io/Resources.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-06/src/main/java/cn/good/mybatis/io/Resources.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/datasource/pooled/PooledConnection.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/main/java/cn/good/mybatis/datasource/pooled/PooledDataSourceFactory.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/test/java/cn/good/mybatis/test/ApiTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/test/java/cn/good/mybatis/test/ApiTest.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-05/src/test/java/cn/good/mybatis/test/ApiTest.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/test/java/cn/good/mybatis/test/ApiTest.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/test/java/cn/good/mybatis/test/ApiTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/test/java/cn/good/mybatis/test/ApiTest.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/main/java/cn/good/mybatis/session/defaults/DefaultSqlSessionFactory.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/test/java/cn/good/mybatis/test/ApiTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/test/java/cn/good/mybatis/test/ApiTest.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/type/TypeAliasRegistry.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/binding/MapperProxy.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/test/java/cn/good/mybatis/test/ApiTest.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/builder/xml/XMLStatementBuilder.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/builder/xml/XMLStatementBuilder.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/type/TypeHandlerRegistry.java</url>
+          <line>23</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/datasource/unpooled/UnpooledDataSource.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/main/java/cn/good/mybatis/datasource/unpooled/UnpooledDataSource.java</url>
+          <line>138</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-04/src/main/java/cn/good/mybatis/binding/MapperProxy.java</url>
+          <line>19</line>
+          <properties field="mapperInterface" class="cn.good.mybatis.binding.MapperProxy" />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-08/src/test/java/cn/good/mybatis/test/ApiTest.java</url>
+          <line>33</line>
+          <properties class="cn.good.mybatis.test.ApiTest" method="test_SqlSessionFactory">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/good-small-mybatis/mybatis-step-07/src/test/java/cn/good/mybatis/test/ApiTest.java</url>
+          <line>33</line>
+          <properties class="cn.good.mybatis.test.ApiTest" method="test_SqlSessionFactory">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="cn.good.mybatis.binding.MapperProxy" memberName="mapperInterface" />
+        <PinnedItemInfo parentTag="cn.good.mybatis.session.defaults.DefaultSqlSessionFactory" memberName="configuration" />
+        <PinnedItemInfo parentTag="cn.good.mybatis.session.Configuration" memberName="environment" />
+        <PinnedItemInfo parentTag="cn.good.mybatis.mapping.Environment" memberName="dataSource" />
+        <PinnedItemInfo parentTag="cn.good.mybatis.session.defaults.DefaultSqlSession" memberName="executor" />
+        <PinnedItemInfo parentTag="cn.good.mybatis.mapping.MappedStatement" memberName="sqlCommandType" />
+        <PinnedItemInfo parentTag="cn.good.mybatis.session.Configuration" memberName="typeAliasRegistry" />
+        <PinnedItemInfo parentTag="cn.good.mybatis.builder.xml.XMLConfigBuilder" memberName="configuration" />
+        <PinnedItemInfo parentTag="org.dom4j.tree.DefaultElement" memberName="attributes" />
+        <PinnedItemInfo parentTag="cn.good.mybatis.binding.MapperMethod$SqlCommand" memberName="type" />
+        <PinnedItemInfo parentTag="cn.good.mybatis.builder.xml.XMLConfigBuilder" memberName="typeAliasRegistry" />
+      </pinned-members>
+    </pin-to-top-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="((BoundSql)((MappedStatement)((HashMap.Node)((HashMap)((Configuration)((DefaultSqlSession)sqlSession).configuration).mappedStatements).entrySet().toArray()[0]).getValue()).boundSql).resultType" custom="cn.good.mybatis.session.Configuration,java.util.HashMap.Node,java.util.HashMap,cn.good.mybatis.mapping.MappedStatement,cn.good.mybatis.mapping.BoundSql,cn.good.mybatis.session.defaults.DefaultSqlSession" />
+        <watch expression="this" />
+        <watch expression="sqlSessionFactory" language="JAVA" />
+        <watch expression="((XMLMapperBuilder)this).element" custom="cn.good.mybatis.builder.xml.XMLMapperBuilder" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
